@@ -1,0 +1,10 @@
+.transfer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  &__title {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

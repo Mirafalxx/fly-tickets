@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: #f3f7fa;
+  align-items: center;
+  justify-content: center;
+}
+
+.tickets {
+  display: flex;
+  max-width: 920px;
+  height: 460px;
+  width: 100%;
+  gap: 15px;
+}
+
+.title {
+  font-size: 19px;
+  color: #767676;
+  font-weight: bold;
+}
+
+.display_condition {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

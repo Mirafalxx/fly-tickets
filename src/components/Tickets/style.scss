@@ -1,0 +1,27 @@
+.tickets__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 15px;
+  overflow-y: scroll;
+
+  height: 100%;
+  align-items: center;
+  padding: 0 5px 10px 15px;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #5ca3ea;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #2263a3;
+  }
+}
